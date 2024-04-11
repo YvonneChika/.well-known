@@ -12,8 +12,8 @@
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "6d3664a8763faaf090b82157e866d5b5271adcb7327a52e0849d2ef66913f6ff",
-        "y": "457a49e411efef144bea79e952c779776d94f4d86ed7767671a19565d2e33d9a"
+        "x": "338b2d4c6970040b319d54cb630a2bbbb96b5643ea73966bb41855f42311a051",
+        "y": "cefe603d7996f43a2a32c03bd3bc3e83f827816f24f6523811f94e66bf15fc50"
       }
     }
   ],
