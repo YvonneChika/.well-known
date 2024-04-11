@@ -6,22 +6,18 @@
   "id": "did:web:yvonnechika.github.io",
   "verificationMethod": [
     {
-      "id": "did:web:yvonnechika.github.io#key-1",
-      "type": "JsonWebKey2020",
+      "id": "did:web:yvonnechika.github.io#keys-1",
+      "type": "Ed25519VerificationKey2020",
       "controller": "did:web:yvonnechika.github.io",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "secp256k1",
-        "x": "7dc5ad6bd6fedbafd1617493b5f23fd33832e3b50f6f317a84256a4cde6ce99a",
-        "y": "1155a92fa76b703819d97ee3b4ef6526301371585863d22bc0cf8fd78a94a6ac"
+      "publicKeyMultibase": "440bbc47f4c4eb79fa776b027c53161cfae889b259eb918b1e74865aef59240d"
       }
     }
   ],
   "authentication": [
-    "did:web:yvonnechika.github.io#key-1"
+    "did:web:yvonnechika.github.io#keys-1"
   ],
   "assertionMethod": [
-    "did:web:yvonnechika.github.io#key-1"
+    "did:web:yvonnechika.github.io#keys-1"
   ],
   "service": [
      {
