@@ -11,7 +11,7 @@
       "controller": "did:web:yvonnechika.github.io",
       "publicKeyMultibase": "440bbc47f4c4eb79fa776b027c53161cfae889b259eb918b1e74865aef59240d"
       }
-    }
+    
   ],
   "authentication": [
     "did:web:yvonnechika.github.io#keys-1"
