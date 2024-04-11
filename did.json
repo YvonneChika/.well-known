@@ -22,7 +22,7 @@
   "service": [
      {
      "id": "did:web:yvonnechika.github.io#well-known",
-     "type": "OID4VCI",
+     "type": "LinkedDomains",
      "serviceEndpoint": "https://example.org/oidc/siop/"
      }
    ]
