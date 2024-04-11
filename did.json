@@ -6,7 +6,7 @@
   "id": "did:web:yvonnechika.github.io",
   "verificationMethod": [
     {
-      "id": "did:web:yvonnechika.github.io#owner",
+      "id": "did:web:yvonnechika.github.io#key-1",
       "type": "JsonWebKey2020",
       "controller": "did:web:yvonnechika.github.io",
       "publicKeyJwk": {
@@ -18,9 +18,16 @@
     }
   ],
   "authentication": [
-    "did:web:yvonnechika.github.io#owner"
+    "did:web:yvonnechika.github.io#key-1"
   ],
   "assertionMethod": [
-    "did:web:yvonnechika.github.io#owner"
-  ]
+    "did:web:yvonnechika.github.io#key-1"
+  ],
+  "service": [
+     {
+     "id": "did:web:yvonnechika.github.io#well-known",
+     "type": "OID4VCI",
+     "serviceEndpoint": "https://example.org/oidc/siop/"
+     }
+   ]
 }
