@@ -22,5 +22,12 @@
   ],
   "assertionMethod": [
     "did:web:yvonnechika.github.io#owner"
-  ]
+  ],
+  "service": [
+     {
+     "id": "did:web:yvonnechika.github.io#well-known",
+     "type": "LinkedDomains",
+     "serviceEndpoint": "https://example.org/oidc/siop/"
+     }
+   ]
 }
