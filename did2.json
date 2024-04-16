@@ -11,9 +11,11 @@
       "controller": "did:web:yvonne.github.io",
       "publicKeyJwk": {
         "kty": "EC",
+        "d": "ovhFoXbvh_LvBBaksusP2R5Q2AKUWNzz5Jig6mprXvs",
         "crv": "secp256k1",
-        "x":"xavr5DaPNEABSrP3hEy5dkaZ5HaRlSMAliFZwsW1aM4=",
-        "y":"9ohMPNQbXqaqt8IEqg0jJ656YompZqKG6ASD71tn7cc="
+        "kid": "t4V9KZJ-MJ_nlndq5PwlIlMtM0WiOnL1U7xhupLoBMM",
+        "x": "0Tb_tkvLYEMMyOilWXHlFjLsInu2L09sIzsAcO7GrQs",
+        "y": "xqyRnvJyQy6m9Q2XnfFgeS2TiMJ7x2-_RzZFXZ2DnbU"
       }
     }
   ],
