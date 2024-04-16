@@ -3,21 +3,27 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:yvonnechika.github.io",
+  "id": "did:web:yvonne.github.io",
   "verificationMethod": [
     {
-      "id": "did:web:yvonnechika.github.io#keys-1",
-      "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:yvonnechika.github.io",
-      "publicKeyMultibase": "440bbc47f4c4eb79fa776b027c53161cfae889b259eb918b1e74865aef59240d"
+      "id": "did:web:yvonne.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:yvonne.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "d": "ovhFoXbvh_LvBBaksusP2R5Q2AKUWNzz5Jig6mprXvs",
+        "crv": "secp256k1",
+        "kid": "t4V9KZJ-MJ_nlndq5PwlIlMtM0WiOnL1U7xhupLoBMM",
+        "x": "0Tb_tkvLYEMMyOilWXHlFjLsInu2L09sIzsAcO7GrQs",
+        "y": "xqyRnvJyQy6m9Q2XnfFgeS2TiMJ7x2-_RzZFXZ2DnbU"
       }
-    
+    }
   ],
   "authentication": [
-    "did:web:yvonnechika.github.io#keys-1"
+    "did:web:yvonnechika.github.io#owner"
   ],
   "assertionMethod": [
-    "did:web:yvonnechika.github.io#keys-1"
+    "did:web:yvonnechika.github.io#owner"
   ],
   "service": [
      {
