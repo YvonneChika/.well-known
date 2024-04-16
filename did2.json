@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:yvonne.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:yvonne.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:yvonne.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x":"xavr5DaPNEABSrP3hEy5dkaZ5HaRlSMAliFZwsW1aM4=",
+        "y":"9ohMPNQbXqaqt8IEqg0jJ656YompZqKG6ASD71tn7cc="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:yvonnechika.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:yvonnechika.github.io#owner"
+  ],
+  "service": [
+     {
+     "id": "did:web:yvonnechika.github.io#well-known",
+     "type": "LinkedDomains",
+     "serviceEndpoint": "https://example.org/oidc/siop/"
+     }
+   ]
+}
